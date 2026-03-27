@@ -21,7 +21,7 @@ prices
 
 
 #Loops over characters
-names <-c("Amit","Neha","Rahul")
+names <-c("Amit","Sneha","Rahul")
 
 for(name in names) {
   print(paste("Hello",name))

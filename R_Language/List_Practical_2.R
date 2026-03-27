@@ -1,7 +1,7 @@
 #List creation
 
 student <- list(
-  name ="Vivek",
+  name ="Sneha",
   age = 20,
   marks = c(80,85,90),
   passed = TRUE

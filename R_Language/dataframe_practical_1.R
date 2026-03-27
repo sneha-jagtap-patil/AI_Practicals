@@ -2,7 +2,7 @@
 
 employees <- data.frame(
   emp_id = 1:5,
-  name = c("amit","neha","Rahul","Yash","Anurag"),
+  name = c("amit","Sneha","Ajay","Yash","Anurag"),
   salary = c(20000,25000,30000,28750,40000),
   department = c("IT","HR","IT","Sales","IT")
 )
