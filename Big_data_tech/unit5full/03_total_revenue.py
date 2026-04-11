@@ -11,4 +11,4 @@ FROM taxi
 
 print(result)
 
-con.close()
+con.close() ##total 
