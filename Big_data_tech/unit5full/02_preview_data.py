@@ -1,3 +1,4 @@
+#import duckdb
 import duckdb
 
 print("Step 2: preview Data..")
