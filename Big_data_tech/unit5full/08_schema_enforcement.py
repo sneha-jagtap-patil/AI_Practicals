@@ -14,7 +14,7 @@ payment VARCHAR)
 """)
 
 
-# Enforce the schema by inserting data from the original table into the new schema-defined table. This will ensure that the data conforms to the specified types and structure.
+
 
 con.execute("""
 INSERT INTO taxi_schema
