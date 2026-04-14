@@ -4,7 +4,6 @@ print("Step 8: Schema Enforcement")
 
 con = duckdb.connect("taxi.db")
 
-#This prevents wrong data types or missing columns
 
 con.execute("""
 CREATE OR REPLACE TABLE taxi_schema (
@@ -15,7 +14,7 @@ payment VARCHAR)
 """)
 
 
-# Insert data into structured table
+# Enforce the schema by inserting data from the original table into the new schema-defined table. This will ensure that the data conforms to the specified types and structure.
 
 con.execute("""
 INSERT INTO taxi_schema
