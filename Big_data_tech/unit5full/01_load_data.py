@@ -1,4 +1,4 @@
-# This script loads the taxi dataset into a DuckDB database.
+
 import duckdb
 
 print("Step 1: Loading Dataset...")
