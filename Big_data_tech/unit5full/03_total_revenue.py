@@ -1,3 +1,4 @@
+# Step 3: Total Revenue
 import duckdb
 
 print("Step 3: Total Revenue")
