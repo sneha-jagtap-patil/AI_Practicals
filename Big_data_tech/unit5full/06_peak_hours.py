@@ -12,7 +12,7 @@ GROUP BY hour
 ORDER BY trips DESC
 
 """).fetchdf()
-# Identify the hours of the day when taxi demand is highest.s
+
 print(result)
 
 con.close()
