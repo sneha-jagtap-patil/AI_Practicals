@@ -20,7 +20,7 @@ try:
 #save changes
     con.execute("COMMIT")
     print("Transaction successful")
-
+#Error handling
 except:
     con.execute("ROLLBACK")
     print("Transaction failed")
