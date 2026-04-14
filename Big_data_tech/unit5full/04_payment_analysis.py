@@ -1,7 +1,7 @@
 import duckdb
 
 print("Step 4: Payment Analysis")
-
+# Analyze the distribution of payment types used by passengers.
 con = duckdb.connect("taxi.db")
 
 result = con.execute("""
