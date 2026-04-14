@@ -10,5 +10,5 @@ SELECT SUM(total) FROM taxi
 """).fetchdf()
 
 print(result)
-# This test demonstrates the performance benefits of columnar storage in DuckDB, especially for aggregation queries like this one.
+
 con.close()
