@@ -2,7 +2,7 @@
 # SECTION 1: IMPORTING DATA
 
 
-# IMPORTANT
+# IMPORTANT of data
 data <- read.csv("C:/Users/Cpu/Downloads/students.csv", stringsAsFactors = FALSE)
 
 print("Dataset Loaded Successfully!")
