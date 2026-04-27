@@ -1,4 +1,4 @@
-# only if statement conditions
+# only if statement 
 
 salary <- 20000
 
