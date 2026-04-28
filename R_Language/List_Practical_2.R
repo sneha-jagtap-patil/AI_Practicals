@@ -28,7 +28,7 @@ class(student[[4]])
 
 
 
-#Nested List --> Opertions 
+#Nested List Opertions 
 
 client_data <- list(
   company = "ABC Pvt Ltd",
