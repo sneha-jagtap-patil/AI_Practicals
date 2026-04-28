@@ -1,4 +1,4 @@
-#Topic 1: Variable Writing Techniques / Methods
+#Topic 1: Variable Writing Techniques
 
 age <- 20
 
