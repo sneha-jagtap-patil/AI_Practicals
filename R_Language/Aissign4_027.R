@@ -48,10 +48,10 @@ print("After Cleaning Missing Values:")
 print(colSums(is.na(data)))
 
 
-# SECTION 3: DATA MANIPULATION (DPLYR)
+# SECTION 3: DATA MANIPULATION 
 
 
- #install.packages("dplyr")
+ #install.packages
 
 library(dplyr)
 
@@ -86,7 +86,7 @@ print("Average Marks by Gender:")
 print(grouped)
 
 
-# SECTION 4: EDA (EXPLORATION)
+# SECTION 4: EDA
 
 print("Summary Statistics:")
 summary(data)
