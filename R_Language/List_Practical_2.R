@@ -42,7 +42,7 @@ client_data <- list(
 
 client_data
 
-#Accessing elements in a nested list (Using $ method)
+#Accessing elements in a nested list 
 client_data$location$city
 
 #Accessing elements in a nested list (Using index name method)
