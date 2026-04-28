@@ -21,7 +21,7 @@ print("Last 5 Rows:")
 tail(data, 5)
 
 
-# SECTION 2: DATA CLEANING
+# SECTION 2: DATA CLEANING.........
 
 # Check missing values
 print("Missing Values (TRUE = Missing):")
