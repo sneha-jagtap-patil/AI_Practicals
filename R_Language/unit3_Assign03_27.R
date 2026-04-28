@@ -126,7 +126,7 @@ calculate_discount <- function(amount, membership = "Bronze") {
   return(discount)
 }
 
-# Apply discount to all customers
+# Apply discount to all customer
 grocery_df$Discount <- mapply(calculate_discount,
                               grocery_df$Amount,
                               grocery_df$Membership)
