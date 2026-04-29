@@ -1,4 +1,4 @@
-
+#..load_data#
 import duckdb
 
 print("Step 1: Loading Dataset...")
