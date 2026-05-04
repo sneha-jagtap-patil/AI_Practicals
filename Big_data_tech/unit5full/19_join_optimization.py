@@ -4,11 +4,12 @@ print("Join Optimization")
 
 con = duckdb.connect("taxi.db")
 
-##Helper Table
+#Helper Table
 con.execute("""
 CREATE OR REPLACE TABLE payment_info AS
 SELECT DISTINCT payment AS type            
 FROM taxi
+            
 """)
 
 
