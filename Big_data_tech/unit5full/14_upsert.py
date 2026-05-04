@@ -1,6 +1,6 @@
 import duckdb
 
-print("Upsert") #Update + Insert
+print("Upsert") 
 
 con = duckdb.connect("taxi.db")
 
