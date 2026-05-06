@@ -132,7 +132,7 @@ ggplot(data, aes(x = Average)) +
   ggtitle("Distribution of Average Marks")
 
 
-# SECTION 6: STATISTICS
+# STATISTICS
 
 mean_avg <- mean(data$Average)
 median_avg <- median(data$Average)
