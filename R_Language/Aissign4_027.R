@@ -163,7 +163,7 @@ print("Actual vs Predicted Values:")
 print(data[, c("Average", "Predicted")])
 
 
-# SECTION 8: EXPORTING DATA
+#  EXPORTING DATA
 
 write.csv(data, "cleaned_student_data.csv", row.names = FALSE)
 
