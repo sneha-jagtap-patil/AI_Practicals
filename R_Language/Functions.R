@@ -44,7 +44,7 @@ calculate_bonus01 <-function(salary01,rate01=0.10){
   return(bonus01)
 }
 
-calculate_bonus01(rate01=0.6,salary01 = 50000) #50000 - 0.6
+calculate_bonus01(rate01=0.6,salary01 = 50000) 
 calculate_bonus01(0.6,50000) # 0.6 - 50000
 
 
