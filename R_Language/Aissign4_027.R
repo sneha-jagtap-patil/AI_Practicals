@@ -148,7 +148,7 @@ print("Standard Deviation:")
 print(sd_avg)
 
 
-# SECTION 7: MACHINE LEARNING
+# : MACHINE LEARNING
 
 
 model <- lm(Average ~ Attendance, data = data)
