@@ -48,7 +48,7 @@ calculate_bonus01(rate01=0.6,salary01 = 50000)
 calculate_bonus01(0.6,50000) # 0.6 - 50000
 
 
-#Lazy Evaluation - Arguments only considers when they are actually used
+#####Lazy Evaluation - Arguments only considers when they are actually used
 #IMP for Exam
 
 test_function <-function(x,y){
