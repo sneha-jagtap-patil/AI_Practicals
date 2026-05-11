@@ -1,6 +1,6 @@
 
 # SECTION 1: IMPORTING DATA
-
+## add files
 
 # IMPORTANT of data
 data <- read.csv("C:/Users/Cpu/Downloads/students.csv", stringsAsFactors = FALSE)
