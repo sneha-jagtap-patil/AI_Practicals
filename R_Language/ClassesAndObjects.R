@@ -66,7 +66,6 @@ bonus1
 #(30000 x 10)
 
 #0.10 (10%)
-##add files
 
 #debugging using Print
 
