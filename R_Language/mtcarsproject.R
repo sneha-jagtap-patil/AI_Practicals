@@ -5,7 +5,7 @@ data()
 View(mtcars)
 
 #install the ggplot2 package
-#installed.packages("ggplot2")
+#####installed.packages("ggplot2")
 
 #Load Required packages -- ggplot2 (0)
 library(ggplot2)
