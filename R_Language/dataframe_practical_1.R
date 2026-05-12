@@ -9,8 +9,7 @@ employees <- data.frame(
 
 employees
 
-
-#####Inspecting the Data Frame
+#Inspecting the Data Frame
 
 #Check the structure of Data Frame
 str(employees)
